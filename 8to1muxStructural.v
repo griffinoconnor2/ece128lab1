@@ -32,7 +32,7 @@ and a5(W5, S2_4,  nS1_4, S0_4,  I5);
 and a6(W6, S2_4,  S1_4,  nS0_4, I6);
 and a7(W7, S2_4,  S1_4,  S0_4,  I7);
 
-//Create Complete Boolean Equation using Or gate
+//Create complete Boolean equation using Or gate
 or o0(Y, W0, W1, W2, W3, W4, W5, W6, W7);
 
 endmodule
