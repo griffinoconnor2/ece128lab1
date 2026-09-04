@@ -3,9 +3,9 @@
 module muxDF_tb;
 
 //Declare testbench I/O wires & regs
-reg [3:0] I0, I1, I2, I3, I4, I5, I6, I7;
+reg I0, I1, I2, I3, I4, I5, I6, I7;
 reg [2:0] S;
-wire [3:0] Y;
+wire Y;
 
 //Instantiate Dataflow Mux
 muxDF uut(.I0(I0), .I1(I1), .I2(I2), .I3(I3), .I4(I4), .I5(I5), .I6(I6), .I7(I7), .S(S), .Y(Y));
@@ -15,14 +15,14 @@ initial
         //Initial Values at t=0
         //Each I signal corresponds to its bus number for ease of testing 
         S  = 3'b000;
-        I0 = 4'b0000; 
-        I1 = 4'b0001;
-        I2 = 4'b0010;
-        I3 = 4'b0011;
-        I4 = 4'b0100;
-        I5 = 4'b0101;
-        I6 = 4'b0110;
-        I7 = 4'b0111;
+        I0 = 1'b1; 
+        I1 = 1'b0;
+        I2 = 1'b0;
+        I3 = 1'b1;
+        I4 = 1'b1;
+        I5 = 1'b0;
+        I6 = 1'b0;
+        I7 = 1'b1;
 
         //Updating selection every 10 ns
         #10 S  = 3'b000;
