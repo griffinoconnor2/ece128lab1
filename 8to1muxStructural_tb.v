@@ -17,12 +17,12 @@ initial
         S  = 3'b000;
         I0 = 1'b1; 
         I1 = 1'b0;
-        I2 = 1'b0;
-        I3 = 1'b1;
+        I2 = 1'b1;
+        I3 = 1'b0;
         I4 = 1'b1;
         I5 = 1'b0;
-        I6 = 1'b0;
-        I7 = 1'b1;
+        I6 = 1'b1;
+        I7 = 1'b0;
 
         //Updating selection every 10 ns
         #10 S  = 3'b000;
