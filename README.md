@@ -6,6 +6,10 @@ The purpose of this lab is to design, simulate, and analyze an 8-to-1 multiplexo
 
 Multiplexors are fundamental functional blocks that take multiple input signals and forward just a single selected input as their output signal. For a mux with n input lines, log2(n) selector lines are required to select and route an input signal through the mux. In our design, we constructed an 8-to-1 mux, which required 3 selector lines to properly select a signal to pass as the output. The selected signal may be represented by a truth table, which displays all possible combinations of the selector lines and their corresponding selection. Below, we’ve attached our Truth Table, the equation we derived from the Truth Table, and a visual representation of the 8-to-1 mux functional block.
 
-3. Additional Sources
+3. Link to live demonstration
+
+https://youtu.be/g9JAgQilg08
+
+4. Additional Sources
 
 https://hilite.me/ - Used to format Appendix code in Lab Report
